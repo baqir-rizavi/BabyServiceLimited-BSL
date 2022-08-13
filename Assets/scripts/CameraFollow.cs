@@ -9,6 +9,8 @@ public class CameraFollow : MonoBehaviour
    [SerializeField] float smoothness = 1f;
 
    private void LateUpdate() {
-      transform.position = Vector3.Lerp(transform.position, target.position - offset, smoothness * Time.deltaTime);
+      Vector3 pos = transform.position; 
+      pos.x = Mathf.Lerp(pos.x, (target.position - offset).x, smoothness * Time.deltaTime);
+      transform.position = pos;
    }
 }
