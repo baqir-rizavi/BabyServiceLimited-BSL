@@ -53,7 +53,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 017416819ef4f6d45a4db9d67428fb50, type: 3}
       propertyPath: m_Name
-      value: teat
+      value: teat Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 017416819ef4f6d45a4db9d67428fb50, type: 3}
+--- !u!1 &3712143756903242250 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 017416819ef4f6d45a4db9d67428fb50, type: 3}
+  m_PrefabInstance: {fileID: 4559128012480309083}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-1149483619850637277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3712143756903242250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93ebc3f616b3ba34e899841807f8a8c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  axis: 1
+  speed: 100
+  relativeTo: 0
