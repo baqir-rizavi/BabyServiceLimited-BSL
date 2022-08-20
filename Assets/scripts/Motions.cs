@@ -24,11 +24,24 @@ public class Motions : MonoBehaviour
     {
         if (path == Path.circular)
         {
-            positionOffset.Set(
-              Mathf.Sin(angle) * CircleRadius,
-              ElevationOffset,
-              Mathf.Cos(angle) * CircleRadius
-          );
+            if (face == "right")
+            {
+                positionOffset.Set(
+                Mathf.Sin(angle) * CircleRadius,
+                ElevationOffset,
+                Mathf.Cos(angle) * CircleRadius
+            );
+            }
+
+            else if (face =="left")
+            {
+                positionOffset.Set(
+               Mathf.Cos(angle) * CircleRadius,
+               ElevationOffset,
+               Mathf.Sin(angle) * CircleRadius
+           );
+            }
+
             transform.position = Target.position + positionOffset;
             angle += Time.deltaTime * RotationSpeed;
         }
@@ -55,16 +68,20 @@ public class Motions : MonoBehaviour
     {
         if (path == Path.u)
         {
-            if (face == "right")
+            if (transform.position.z <= 11f)
             {
-                position += 0.075f;
-            }
-            else if (face == "left")
-            {
-                position -= 0.075f;
-            }
+                if (face == "right")
+                {
+                    position += 0.075f;
+                }
+                else if (face == "left")
+                {
+                    position -= 0.075f;
+                }
 
-            transform.position = new Vector3(position, scale * Umotion(position), transform.position.z);
+                transform.position = new Vector3(position, scale * Umotion(position), transform.position.z);
+            }
+           
         }
     }
 
