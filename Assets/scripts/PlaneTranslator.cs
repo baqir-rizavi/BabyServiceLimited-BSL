@@ -6,6 +6,7 @@ public class PlaneTranslator : MonoBehaviour
 {
     [SerializeField] float speed = 20f;
     [SerializeField]  string direction = "left";
+
     // Start is called before the first frame update
     void Start()
     {
@@ -17,11 +18,18 @@ public class PlaneTranslator : MonoBehaviour
     {
         if (direction == "left")
         {
-            transform.Translate(Vector3.left * speed * Time.deltaTime, Space.World);
+            if (transform.position.z <= 20f)
+            {
+                transform.Translate(Vector3.left * speed * Time.deltaTime, Space.World);
+            }
         }
         else if (direction == "right")
         {
-            transform.Translate(-Vector3.left * speed * Time.deltaTime, Space.World);
+            if (transform.position.z <= 20f)
+            {
+                transform.Translate(-Vector3.left * speed * Time.deltaTime, Space.World);
+            }
         }
+        
     }
 }
