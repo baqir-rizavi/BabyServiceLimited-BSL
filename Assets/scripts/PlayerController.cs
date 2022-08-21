@@ -9,8 +9,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float sidewaySpeed = 1.5f;
     [SerializeField] float forwardSpeed = 3f;
     [SerializeField] float inverseAcceleration = 1f;
-    [SerializeField] Animator anim;
-   
+    
+    Animator anim;
     Touch touch;
     static int speedVal = Animator.StringToHash("speed");
     Vector3 nextPos = Vector3.zero;
