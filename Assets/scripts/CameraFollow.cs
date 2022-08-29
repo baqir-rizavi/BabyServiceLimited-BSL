@@ -10,7 +10,8 @@ public class CameraFollow : MonoBehaviour
 
    private void LateUpdate() {
       Vector3 pos = transform.position;
-      pos.x = Mathf.Lerp(pos.x, (target.position - offset).x, smoothness * Time.deltaTime);
+      if (target != null)
+         pos.x = Mathf.Lerp(pos.x, (target.position - offset).x, smoothness * Time.deltaTime);
       transform.position = pos;
    }
 }
