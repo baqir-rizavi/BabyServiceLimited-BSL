@@ -15,7 +15,7 @@ public class SpawnCollectibles : MonoBehaviour
         Vector3 randomizePacifierPosition = new Vector3(Random.Range(-4.5f, 4.5f), 0, zpos);
         //int randCollectable = Random.Range(0, collectibles.Length);
         
-        for (int i = 0; i < count; i++)
+        for (int i = 0; i < 5; i++)
         {
             if (num % 2 == 0)
             {
