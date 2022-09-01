@@ -10,9 +10,10 @@ public class CollectItems : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            transform.Translate(Vector3.up * speed * Time.deltaTime, Space.World);
+            // transform.Translate(Vector3.up * speed * Time.deltaTime, Space.World);
 
-            Destroy(gameObject,0.3f);
+            // Destroy(gameObject,0.3f);
+            Destroy(gameObject);
         }
     }
 }
