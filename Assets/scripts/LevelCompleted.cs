@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor.SceneManagement;
+using UnityEngine.SceneManagement;
 
 public class LevelCompleted : MonoBehaviour
 {
@@ -9,7 +9,7 @@ public class LevelCompleted : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            EditorSceneManager.LoadScene("levelcompleted");
+            SceneManager.LoadScene("levelcompleted");
         }
     }
 }

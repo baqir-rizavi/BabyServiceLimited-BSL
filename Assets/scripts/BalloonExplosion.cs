@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor.SceneManagement;
+using UnityEngine.SceneManagement;
 public class BalloonExplosion : MonoBehaviour
 {
     [SerializeField] Transform particles;
@@ -15,7 +15,7 @@ public class BalloonExplosion : MonoBehaviour
             Destroy(other.gameObject);
             // game over UI displayed
 
-            EditorSceneManager.LoadScene("Gameover");
+            SceneManager.LoadScene("Gameover");
 
             StartCoroutine(GameOver());
             
@@ -26,6 +26,6 @@ public class BalloonExplosion : MonoBehaviour
     {
         yield return new WaitForSeconds(3.0f);
 
-        EditorSceneManager.LoadScene("Gameover");
+        SceneManager.LoadScene("Gameover");
     }
 }

@@ -1,10 +1,10 @@
 using UnityEngine;
-using UnityEditor.SceneManagement;
+using UnityEngine.SceneManagement;
 
 public class PlayGame : MonoBehaviour
 {
     public void LoadScene(string sceneName)
     {
-        EditorSceneManager.LoadScene(sceneName);
+        SceneManager.LoadScene(sceneName);
     }
 }
