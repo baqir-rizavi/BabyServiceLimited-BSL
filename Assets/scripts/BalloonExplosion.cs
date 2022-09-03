@@ -15,7 +15,7 @@ public class BalloonExplosion : MonoBehaviour
             Destroy(other.gameObject);
             // game over UI displayed
 
-            //EditorSceneManager.LoadScene("Gameover");
+            EditorSceneManager.LoadScene("Gameover");
 
             StartCoroutine(GameOver());
             
