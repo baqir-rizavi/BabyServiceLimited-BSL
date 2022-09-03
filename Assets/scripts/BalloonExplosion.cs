@@ -1,10 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+
 public class BalloonExplosion : MonoBehaviour
 {
     [SerializeField] Transform particles;
+    [SerializeField] Transform LevelManager;
+
+    GameOver instance;
+
+    void Awake()
+    {
+        instance = LevelManager.GetComponent<GameOver>();
+    }
 
     void OnCollisionEnter(Collision other)
     {
@@ -13,19 +21,9 @@ public class BalloonExplosion : MonoBehaviour
             Destroy(gameObject);
             Instantiate(particles, other.GetContact(0).point, Quaternion.identity);
             Destroy(other.gameObject);
-            // game over UI displayed
 
-            SceneManager.LoadScene("Gameover");
-
-            StartCoroutine(GameOver());
+            instance.EndGameInSeconds(1f);
             
         }
-    }
-
-    private IEnumerator GameOver()
-    {
-        yield return new WaitForSeconds(3.0f);
-
-        SceneManager.LoadScene("Gameover");
     }
 }
