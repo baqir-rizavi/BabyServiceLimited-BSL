@@ -8,6 +8,6 @@ public class EnvMotion : MonoBehaviour
 
     void Update()
     {
-        transform.Translate(-Vector3.forward * speed * Time.deltaTime, Space.World);   
+        transform.Translate(-Vector3.forward * speed * Time.deltaTime, Space.World);
     }
 }
