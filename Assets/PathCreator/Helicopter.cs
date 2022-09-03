@@ -20,7 +20,7 @@ public class Helicopter : MonoBehaviour
     {
         distanceTravelled += speed * Time.deltaTime;
         transform.position = pathCreator.path.GetPointAtDistance(distanceTravelled);
-        transform.rotation = Quaternion.Euler(15, -185, 0);
+        transform.rotation = pathCreator.path.GetRotationAtDistance(distanceTravelled);
 
     }
 }
