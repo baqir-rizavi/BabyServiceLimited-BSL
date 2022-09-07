@@ -19,6 +19,7 @@ public class UFOMotor : MonoBehaviour
     {
         StartCoroutine(shooting());
     }
+
     
     // Update is called once per frame
     void Update()
