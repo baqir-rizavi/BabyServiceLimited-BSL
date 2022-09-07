@@ -8,6 +8,7 @@ public class Airplane : MonoBehaviour
     public PathCreator pathCreator;
     public float speed = 10;
     float distanceTravelled;
+    [SerializeField] float angle;
 
     // Start is called before the first frame update
     void Start()
@@ -20,7 +21,7 @@ public class Airplane : MonoBehaviour
     {
         distanceTravelled += speed * Time.deltaTime;
         transform.position = pathCreator.path.GetPointAtDistance(distanceTravelled);
-        transform.rotation = Quaternion.Euler(0, -142.5f, 0);
+        transform.rotation = Quaternion.Euler(0, angle, 0);
 
     }
 }
