@@ -6,8 +6,14 @@ using PathCreation;
 public class Fighter_Plane : MonoBehaviour
 {
     public PathCreator pathCreator;
-    public float speed = 100;
+    public float speed = 5;
     float distanceTravelled;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
 
     // Update is called once per frame
     void Update()
@@ -15,7 +21,5 @@ public class Fighter_Plane : MonoBehaviour
         distanceTravelled += speed * Time.deltaTime;
         transform.position = pathCreator.path.GetPointAtDistance(distanceTravelled);
         transform.rotation = pathCreator.path.GetRotationAtDistance(distanceTravelled);
-        //transform.rotation = Quaternion.Euler(-75, -185, 5);
-
     }
 }
