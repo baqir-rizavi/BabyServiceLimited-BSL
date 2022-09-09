@@ -3,8 +3,13 @@ using UnityEngine.SceneManagement;
 
 public class PlayGame : MonoBehaviour
 {
-    public void LoadScene(string sceneName)
+    public void LoadCurrentLevel()
     {
-        SceneManager.LoadScene(sceneName);
+        SceneManager.LoadScene(GameManager.GetInstance().GetCurrentLevel());
+    }
+
+    public void LoadLevel1()
+    {
+        SceneManager.LoadScene("LEVEL1");
     }
 }
