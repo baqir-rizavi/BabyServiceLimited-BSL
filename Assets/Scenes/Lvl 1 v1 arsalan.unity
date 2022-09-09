@@ -531,7 +531,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particles: {fileID: 4053710069140964, guid: 42b5a7c17e87672438c3602c0b701f71, type: 3}
-  LevelManager: {fileID: 636290167}
 --- !u!65 &597973785
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -545,11 +544,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 15, y: 3.3690438, z: 8.475612}
   m_Center: {x: -0.0000000011583796, y: 3, z: 0.5}
---- !u!4 &636290167 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6420153108583962306, guid: c4e71fd921bc61643b527656897c287d, type: 3}
-  m_PrefabInstance: {fileID: 6420153108120818357}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &673631916
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -807,6 +801,10 @@ PrefabInstance:
     - target: {fileID: 5893932343804271916, guid: ed61c0554e0beb24590b99f88457fffa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6215474637316889816, guid: ed61c0554e0beb24590b99f88457fffa, type: 3}
+      propertyPath: forwardSpeed
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6215474637316889816, guid: ed61c0554e0beb24590b99f88457fffa, type: 3}
       propertyPath: sidewaySpeed
@@ -1503,7 +1501,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particles: {fileID: 4053710069140964, guid: 42b5a7c17e87672438c3602c0b701f71, type: 3}
-  LevelManager: {fileID: 636290167}
 --- !u!65 &1069267664
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2079,7 +2076,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particles: {fileID: 4053710069140964, guid: 42b5a7c17e87672438c3602c0b701f71, type: 3}
-  LevelManager: {fileID: 636290167}
 --- !u!4 &2011833095 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5893932343804271916, guid: ed61c0554e0beb24590b99f88457fffa, type: 3}

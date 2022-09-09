@@ -1242,6 +1242,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6215474637316889816, guid: ed61c0554e0beb24590b99f88457fffa, type: 3}
+      propertyPath: forwardSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6215474637316889816, guid: ed61c0554e0beb24590b99f88457fffa, type: 3}
       propertyPath: sidewaySpeed
       value: 0.8
       objectReference: {fileID: 0}
@@ -2272,7 +2276,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.067455925, y: 0.09364115, z: 0.015328288}
+  m_Size: {x: 0.05745593, y: 0.08364115, z: 0.01332829}
   m_Center: {x: 0.000007636838, y: -0.00579755, z: 0.02148777}
 --- !u!1001 &1605547978
 PrefabInstance:
