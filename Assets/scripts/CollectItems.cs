@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class CollectItems : MonoBehaviour
 {
-    [SerializeField] private float speed = 1f;
 
     void OnCollisionEnter(Collision other)
     {

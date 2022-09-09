@@ -5,12 +5,17 @@ using UnityEngine;
 public class BalloonExplosion : MonoBehaviour
 {
     [SerializeField] Transform particles;
-    [SerializeField] Transform LevelManager;
+    GameObject LevelManager;
 
     GameOver instance;
 
     void Awake()
     {
+        LevelManager = GameObject.Find("LevelManager");
+        if (LevelManager == null)
+        {
+            Debug.LogError("set a LevelManager in the scene");
+        }
         instance = LevelManager.GetComponent<GameOver>();
     }
 
