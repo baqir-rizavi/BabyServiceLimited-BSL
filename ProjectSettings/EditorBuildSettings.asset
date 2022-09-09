@@ -15,6 +15,18 @@ EditorBuildSettings:
     path: Assets/Scenes/levelcompleted.unity
     guid: aef18c05b84794344b35f5d060886829
   - enabled: 1
-    path: Assets/Scenes/Lvl 1 v1 arsalan.unity
+    path: Assets/Scenes/LEVEL1.unity
     guid: f900b34d5d58bb04e9c78699028e2398
+  - enabled: 1
+    path: Assets/Scenes/LEVEL2.unity
+    guid: 80adaa6f627f50a47842d975ed7fe481
+  - enabled: 1
+    path: Assets/Scenes/LEVEL3.unity
+    guid: 8d93963e495ba0f4ebec1d820a7c99e7
+  - enabled: 1
+    path: Assets/Scenes/LEVEL4.unity
+    guid: b8b05c8581e4e544196e3dbd64d29f59
+  - enabled: 1
+    path: Assets/Scenes/LEVEL5.unity
+    guid: f1fbee29f7bf58c4e89ed3ed7f5479b4
   m_configObjects: {}
