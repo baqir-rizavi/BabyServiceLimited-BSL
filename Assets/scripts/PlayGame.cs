@@ -8,6 +8,11 @@ public class PlayGame : MonoBehaviour
         SceneManager.LoadScene(GameManager.GetInstance().GetCurrentLevel());
     }
 
+    public void LoadNextLevel()
+    {
+        SceneManager.LoadScene(GameManager.GetInstance().GetNextLevel());
+    }
+
     public void LoadLevel1()
     {
         SceneManager.LoadScene("LEVEL1");

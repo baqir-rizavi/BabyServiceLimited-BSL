@@ -1192,6 +1192,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c4e71fd921bc61643b527656897c287d, type: 3}
+--- !u!1 &972267956 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6420153108583962304, guid: c4e71fd921bc61643b527656897c287d, type: 3}
+  m_PrefabInstance: {fileID: 972267955}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &972267957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 972267956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85cfc848fdbe81645b9f275d466c6481, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &998079165 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6655607189847428983, guid: c2f0e1f2def5ba04c99fc2078e54ed5b, type: 3}
@@ -1953,6 +1970,10 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 2011833095}
+    - target: {fileID: 6529203662607290705, guid: 5422425d513f13743961ab924bc996c6, type: 3}
+      propertyPath: timeGapInShooting
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6976290257514241741, guid: 5422425d513f13743961ab924bc996c6, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
