@@ -2148,7 +2148,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2126985374}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.050887585, y: -3.369441, z: 67.18}
+  m_LocalPosition: {x: 0.050887585, y: 1.3, z: 67.18}
   m_LocalScale: {x: 3.3069, y: 3.3069, z: 3.3069}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2170,14 +2170,14 @@ MonoBehaviour:
   editorData:
     _bezierPath:
       points:
-      - {x: -1.6380761, y: 0, z: -0.614096}
-      - {x: -1.614429, y: 0, z: 1.7033191}
-      - {x: 1.6214658, y: 0, z: 1.7507305}
-      - {x: 1.6214658, y: 0, z: -0.614096}
-      - {x: 1.6214658, y: 0, z: -3.3497353}
-      - {x: -1.6691678, y: 0, z: -3.6610878}
+      - {x: -1.638076, y: 0, z: -0.614096}
+      - {x: -1.6144289, y: 0, z: 1.7033191}
+      - {x: 1.6214654, y: 0, z: 1.7507305}
+      - {x: 1.6214654, y: 0, z: -0.614096}
+      - {x: 1.6214654, y: 0, z: -3.3497353}
+      - {x: -1.6691676, y: 0, z: -3.6610878}
       isClosed: 1
-      space: 2
+      space: 0
       controlMode: 0
       autoControlLength: 0.3
       boundsUpToDate: 0
