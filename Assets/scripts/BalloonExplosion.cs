@@ -6,11 +6,17 @@ public class BalloonExplosion : MonoBehaviour
 {
     [SerializeField] Transform particles;
     GameObject LevelManager;
+    AudioManager aux;
 
     GameOver instance;
 
     void Awake()
     {
+        GameObject sm = GameObject.Find("SoundManager");
+        if (sm != null)
+        {
+            aux = sm.GetComponent<AudioManager>();
+        }
         LevelManager = GameObject.Find("LevelManager");
         if (LevelManager == null)
         {
@@ -23,6 +29,7 @@ public class BalloonExplosion : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            aux.Play("explosion");
             Destroy(gameObject);
             Instantiate(particles, other.GetContact(0).point, Quaternion.identity);
             Destroy(other.gameObject);
