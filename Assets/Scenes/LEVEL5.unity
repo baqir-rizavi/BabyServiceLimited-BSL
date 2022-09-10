@@ -197,7 +197,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 20
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -1960,7 +1960,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4504302233547605617, guid: b2c645e5819e00b4e82e174d9af55ee8, type: 3}
       propertyPath: sounds.Array.data[0].pitch
-      value: 0.5
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 4504302233547605617, guid: b2c645e5819e00b4e82e174d9af55ee8, type: 3}
       propertyPath: sounds.Array.data[1].pitch
@@ -1968,11 +1968,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4504302233547605617, guid: b2c645e5819e00b4e82e174d9af55ee8, type: 3}
       propertyPath: sounds.Array.data[0].volume
-      value: 0.05
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 4504302233547605617, guid: b2c645e5819e00b4e82e174d9af55ee8, type: 3}
       propertyPath: sounds.Array.data[1].volume
-      value: 0.2
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 7177877986160778374, guid: b2c645e5819e00b4e82e174d9af55ee8, type: 3}
       propertyPath: m_RootOrder
@@ -2740,6 +2740,14 @@ PrefabInstance:
       propertyPath: pathCreator
       value: 
       objectReference: {fileID: 1460744613}
+    - target: {fileID: 8180448229757331650, guid: cadf11a4160b5364ab09991b84aa0f8d, type: 3}
+      propertyPath: m_Volume
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8180448229757331650, guid: cadf11a4160b5364ab09991b84aa0f8d, type: 3}
+      propertyPath: MinDistance
+      value: 20
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cadf11a4160b5364ab09991b84aa0f8d, type: 3}
 --- !u!4 &8570132264979559110 stripped

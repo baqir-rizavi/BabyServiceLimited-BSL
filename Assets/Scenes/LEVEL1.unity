@@ -255,7 +255,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4504302233547605617, guid: b2c645e5819e00b4e82e174d9af55ee8, type: 3}
       propertyPath: sounds.Array.data[0].pitch
-      value: 0.5
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 4504302233547605617, guid: b2c645e5819e00b4e82e174d9af55ee8, type: 3}
       propertyPath: sounds.Array.data[1].pitch
@@ -263,11 +263,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4504302233547605617, guid: b2c645e5819e00b4e82e174d9af55ee8, type: 3}
       propertyPath: sounds.Array.data[0].volume
-      value: 0.05
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 4504302233547605617, guid: b2c645e5819e00b4e82e174d9af55ee8, type: 3}
       propertyPath: sounds.Array.data[1].volume
-      value: 0.2
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 7177877986160778374, guid: b2c645e5819e00b4e82e174d9af55ee8, type: 3}
       propertyPath: m_RootOrder
@@ -401,6 +401,18 @@ PrefabInstance:
     - target: {fileID: 6749759077393419623, guid: cf2f3b9bafe98244696fa85b0a0167eb, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8874248810695749825, guid: cf2f3b9bafe98244696fa85b0a0167eb, type: 3}
+      propertyPath: MaxDistance
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 8874248810695749825, guid: cf2f3b9bafe98244696fa85b0a0167eb, type: 3}
+      propertyPath: MinDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8874248810695749825, guid: cf2f3b9bafe98244696fa85b0a0167eb, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 0.99
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6749759077393419623, guid: cf2f3b9bafe98244696fa85b0a0167eb, type: 3}
@@ -2182,7 +2194,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 67c68ffd2c760ef4a812b311943c5a24, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.85
+  m_Volume: 1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -2190,7 +2202,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 20
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
