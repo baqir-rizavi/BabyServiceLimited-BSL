@@ -2580,9 +2580,45 @@ PrefabInstance:
       propertyPath: m_Name
       value: fighterplane 1
       objectReference: {fileID: 0}
+    - target: {fileID: 669007719506943573, guid: cadf11a4160b5364ab09991b84aa0f8d, type: 3}
+      propertyPath: m_Size.x
+      value: 5.6730957
+      objectReference: {fileID: 0}
+    - target: {fileID: 669007719506943573, guid: cadf11a4160b5364ab09991b84aa0f8d, type: 3}
+      propertyPath: m_Size.y
+      value: 0.890088
+      objectReference: {fileID: 0}
+    - target: {fileID: 669007719506943573, guid: cadf11a4160b5364ab09991b84aa0f8d, type: 3}
+      propertyPath: m_Size.z
+      value: 8.479639
+      objectReference: {fileID: 0}
+    - target: {fileID: 669007719506943573, guid: cadf11a4160b5364ab09991b84aa0f8d, type: 3}
+      propertyPath: m_Center.x
+      value: -0.019901404
+      objectReference: {fileID: 0}
+    - target: {fileID: 669007719506943573, guid: cadf11a4160b5364ab09991b84aa0f8d, type: 3}
+      propertyPath: m_Center.y
+      value: 2.0211847
+      objectReference: {fileID: 0}
+    - target: {fileID: 669007719506943573, guid: cadf11a4160b5364ab09991b84aa0f8d, type: 3}
+      propertyPath: m_Center.z
+      value: 0.62268156
+      objectReference: {fileID: 0}
     - target: {fileID: 4252328733771088812, guid: cadf11a4160b5364ab09991b84aa0f8d, type: 3}
       propertyPath: m_RootOrder
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252328733771088812, guid: cadf11a4160b5364ab09991b84aa0f8d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.88040936
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252328733771088812, guid: cadf11a4160b5364ab09991b84aa0f8d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.88040936
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252328733771088812, guid: cadf11a4160b5364ab09991b84aa0f8d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.88040936
       objectReference: {fileID: 0}
     - target: {fileID: 4252328733771088812, guid: cadf11a4160b5364ab09991b84aa0f8d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2590,11 +2626,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4252328733771088812, guid: cadf11a4160b5364ab09991b84aa0f8d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.56
+      value: -0.30297
       objectReference: {fileID: 0}
     - target: {fileID: 4252328733771088812, guid: cadf11a4160b5364ab09991b84aa0f8d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -10.78
+      value: -10.711
       objectReference: {fileID: 0}
     - target: {fileID: 4252328733771088812, guid: cadf11a4160b5364ab09991b84aa0f8d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2634,7 +2670,7 @@ PrefabInstance:
       objectReference: {fileID: 2126985376}
     - target: {fileID: 8180448229757331650, guid: cadf11a4160b5364ab09991b84aa0f8d, type: 3}
       propertyPath: MinDistance
-      value: 20
+      value: 30.661072
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cadf11a4160b5364ab09991b84aa0f8d, type: 3}
