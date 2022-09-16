@@ -1146,19 +1146,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particles: {fileID: 4053710069140964, guid: 42b5a7c17e87672438c3602c0b701f71, type: 3}
---- !u!65 &597973785
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 597973780}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 15, y: 3.3690438, z: 8.475612}
-  m_Center: {x: -0.0000000011583796, y: 3, z: 0.5}
 --- !u!114 &597973786
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2580,6 +2567,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fighterplane 1
       objectReference: {fileID: 0}
+    - target: {fileID: 524044740908154359, guid: cadf11a4160b5364ab09991b84aa0f8d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 669007719506943573, guid: cadf11a4160b5364ab09991b84aa0f8d, type: 3}
       propertyPath: m_Size.x
       value: 5.6730957
@@ -2598,7 +2589,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 669007719506943573, guid: cadf11a4160b5364ab09991b84aa0f8d, type: 3}
       propertyPath: m_Center.y
-      value: 2.0211847
+      value: 1.93
       objectReference: {fileID: 0}
     - target: {fileID: 669007719506943573, guid: cadf11a4160b5364ab09991b84aa0f8d, type: 3}
       propertyPath: m_Center.z
@@ -2610,15 +2601,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4252328733771088812, guid: cadf11a4160b5364ab09991b84aa0f8d, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.88040936
+      value: 0.7636847
       objectReference: {fileID: 0}
     - target: {fileID: 4252328733771088812, guid: cadf11a4160b5364ab09991b84aa0f8d, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.88040936
+      value: 0.7636847
       objectReference: {fileID: 0}
     - target: {fileID: 4252328733771088812, guid: cadf11a4160b5364ab09991b84aa0f8d, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.88040936
+      value: 0.7636847
       objectReference: {fileID: 0}
     - target: {fileID: 4252328733771088812, guid: cadf11a4160b5364ab09991b84aa0f8d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2626,11 +2617,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4252328733771088812, guid: cadf11a4160b5364ab09991b84aa0f8d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.30297
+      value: -0.052148
       objectReference: {fileID: 0}
     - target: {fileID: 4252328733771088812, guid: cadf11a4160b5364ab09991b84aa0f8d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -10.711
+      value: -10.643
       objectReference: {fileID: 0}
     - target: {fileID: 4252328733771088812, guid: cadf11a4160b5364ab09991b84aa0f8d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3132,7 +3123,7 @@ MonoBehaviour:
       - 0
       globalNormalsAngle: 0
       flipNormals: 0
-    vertexPathUpToDate: 1
+    vertexPathUpToDate: 0
     vertexPathMaxAngleError: 0.3
     vertexPathMinVertexSpacing: 0.01
     showTransformTool: 1
