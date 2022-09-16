@@ -238,11 +238,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4252328733771088812, guid: cadf11a4160b5364ab09991b84aa0f8d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.56
+      value: -0.34178
       objectReference: {fileID: 0}
     - target: {fileID: 4252328733771088812, guid: cadf11a4160b5364ab09991b84aa0f8d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -10.78
+      value: -10.719
       objectReference: {fileID: 0}
     - target: {fileID: 4252328733771088812, guid: cadf11a4160b5364ab09991b84aa0f8d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -273,25 +273,9 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6607902390387438146, guid: cadf11a4160b5364ab09991b84aa0f8d, type: 3}
-      propertyPath: speed
-      value: 22
-      objectReference: {fileID: 0}
-    - target: {fileID: 6607902390387438146, guid: cadf11a4160b5364ab09991b84aa0f8d, type: 3}
       propertyPath: pathCreator
       value: 
       objectReference: {fileID: 1707254573}
-    - target: {fileID: 8180448229757331650, guid: cadf11a4160b5364ab09991b84aa0f8d, type: 3}
-      propertyPath: m_Volume
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8180448229757331650, guid: cadf11a4160b5364ab09991b84aa0f8d, type: 3}
-      propertyPath: MinDistance
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 8180448229757331650, guid: cadf11a4160b5364ab09991b84aa0f8d, type: 3}
-      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
-      value: 0.99
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cadf11a4160b5364ab09991b84aa0f8d, type: 3}
 --- !u!1001 &89915920

@@ -223,6 +223,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Balloon
       objectReference: {fileID: 0}
+    - target: {fileID: 2179702294932561075, guid: feb24b7c5b5a69746bc47c4cbaed428d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -2839737558350849860, guid: feb24b7c5b5a69746bc47c4cbaed428d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: feb24b7c5b5a69746bc47c4cbaed428d, type: 3}
@@ -918,19 +922,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particles: {fileID: 4053710069140964, guid: 42b5a7c17e87672438c3602c0b701f71, type: 3}
---- !u!65 &597973785
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 597973780}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 15, y: 3.3690474, z: 7.8662004}
-  m_Center: {x: -0.000000017373068, y: 3.0000021, z: 0.19529627}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0

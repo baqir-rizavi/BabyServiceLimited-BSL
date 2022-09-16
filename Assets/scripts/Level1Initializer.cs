@@ -6,7 +6,8 @@ public class Level1Initializer : MonoBehaviour
 {
     private void Awake()
     {
-        GameManager.GetInstance().SetCurrentLevel("LEVEL1"); 
+        Destroy(GameObject.Find("Canvas"), 2f);
+        GameManager.GetInstance().SetCurrentLevel("LEVEL1");
         GameManager.GetInstance().SetNextLevel("LEVEL2"); 
     }
 }
