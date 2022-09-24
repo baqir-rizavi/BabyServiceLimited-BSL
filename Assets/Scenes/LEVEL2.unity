@@ -210,7 +210,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 48078266}
   m_LocalRotation: {x: -0.6114799, y: -0, z: -0, w: 0.79126}
-  m_LocalPosition: {x: 0.050887585, y: 9, z: 45.4}
+  m_LocalPosition: {x: 0.050887585, y: 9, z: 38.1}
   m_LocalScale: {x: 3.3069, y: 3.3069, z: 3.3069}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -271,6 +271,10 @@ PrefabInstance:
     - target: {fileID: 4252328733771088812, guid: cadf11a4160b5364ab09991b84aa0f8d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6607902390387438146, guid: cadf11a4160b5364ab09991b84aa0f8d, type: 3}
+      propertyPath: speed
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 6607902390387438146, guid: cadf11a4160b5364ab09991b84aa0f8d, type: 3}
       propertyPath: pathCreator
@@ -1586,7 +1590,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de9b76cb52ae8584fa95bd58516851e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
+  target: {fileID: 632868230}
   offset: {x: 0, y: -11, z: 30}
   smoothness: 1
 --- !u!1 &1012961321
@@ -2388,21 +2392,21 @@ MonoBehaviour:
   editorData:
     _bezierPath:
       points:
-      - {x: -437.84375, y: -18.694, z: 106.99423}
-      - {x: -271.68323, y: -15.288851, z: -0.6921234}
-      - {x: -105.52272, y: -11.883701, z: -108.37848}
+      - {x: -141.06752, y: -18.694, z: -33.55873}
+      - {x: -77.99089, y: -12.743723, z: -54.10014}
+      - {x: -14.914261, y: -6.793446, z: -74.64155}
       - {x: 29.052235, y: -1.3915634, z: -48.389465}
-      - {x: 43.03104, y: -0.30170548, z: -42.15818}
-      - {x: 51.474037, y: 1.8878381, z: -16.774624}
+      - {x: 42.15337, y: 0.21808934, z: -40.56687}
+      - {x: 50.630474, y: 2.00102, z: -16.87043}
       - {x: 49.35219, y: 2.1750202, z: -1.5812378}
-      - {x: 47.12475, y: 2.4764934, z: 14.368217}
-      - {x: 31.236145, y: 0.9763603, z: 42.653805}
-      - {x: 15.380294, y: 0.14465904, z: 39.944977}
-      - {x: 3.4078455, y: -0.4833426, z: 37.899593}
-      - {x: 2.8327327, y: -0.2678823, z: 13.935868}
-      - {x: 1.5427852, y: -0.3936081, z: 1.8429871}
-      - {x: -0.56359553, y: -0.59890825, z: -17.903717}
-      - {x: -1.9211655, y: -1.3243607, z: -48.260967}
+      - {x: 48.351616, y: 2.3112178, z: 10.386295}
+      - {x: 39.559685, y: 0.82382494, z: 31.148588}
+      - {x: 27.594572, y: 0.18203926, z: 31.964523}
+      - {x: 15.690645, y: -0.45646453, z: 32.776287}
+      - {x: 4.9434395, y: -0.25430715, z: 13.29663}
+      - {x: 1.5427852, y: -0.3936081, z: 1.8429718}
+      - {x: -4.1094246, y: -0.6251395, z: -17.194098}
+      - {x: -1.9211626, y: -1.3243606, z: -48.26097}
       - {x: 10.505289, y: -0.8434162, z: -63.745255}
       - {x: 54.34572, y: 0.8533523, z: -118.37369}
       - {x: 141.8578, y: 5.6457086, z: -131.4231}
@@ -2418,8 +2422,8 @@ MonoBehaviour:
       perAnchorNormalsAngle:
       - 0
       - 346.3131
-      - 343.4309
-      - 325.43094
+      - 336.17715
+      - 47.054367
       - 10.011787
       - 7.6489105
       - 0
@@ -2433,7 +2437,7 @@ MonoBehaviour:
     showPerSegmentBounds: 0
     displayAnchorPoints: 1
     displayControlPoints: 1
-    bezierHandleScale: 52.33
+    bezierHandleScale: 24.13
     globalDisplaySettingsFoldout: 0
     keepConstantHandleSize: 0
     showNormalsInVertexMode: 0
@@ -2454,7 +2458,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1707254572}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 295.3}
+  m_LocalPosition: {x: 2.2, y: 0, z: 136.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2508,7 +2512,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pathCreator: {fileID: 2091418494}
-  speed: 29
+  speed: 20
 --- !u!82 &1775804476
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2858,7 +2862,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2091418493}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 93.35, y: -112.9, z: 385.5}
+  m_LocalPosition: {x: 93.35, y: -112.9, z: 465}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
